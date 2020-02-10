@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.189" height="18.189" viewBox="0 0 18.189 18.189">
+  <g id="그룹_45" data-name="그룹 45" transform="translate(-365.799 -360.799)">
+    <g id="그룹_128" data-name="그룹 128">
+      <g id="타원_8" data-name="타원 8" transform="translate(365.799 360.799)" fill="none" stroke="#afe0f1" stroke-width="0.5">
+        <circle cx="9.095" cy="9.095" r="9.095" stroke="none"/>
+        <circle cx="9.095" cy="9.095" r="8.845" fill="none"/>
+      </g>
+      <circle id="타원_9" data-name="타원 9" cx="7.851" cy="7.851" r="7.851" transform="translate(367.042 362.042)" fill="#afe0f1"/>
+      <text id="TMC" transform="translate(369 372)" fill="#2595bb" font-size="6" font-family="Helvetica"><tspan x="0" y="0">TMC</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+.list_view a{
+  text-decoration: none;
+}
+.list_image {
+  height: 100%;
+  border-radius: 10px;
+  vertical-align: middle; 
+}
+.list_info{
+  display: inline-block;
+  position: relative;
+}
+.list_info .list_title{
+  font-size: 12px;
+  color: #393939;
+}
+.list_info .list_day{
+  font-size: 11px;
+  color: #4B4B4B;
+}
+.list_info .list_like, .list_info .list_comment{
+  font-size: 10px;
+  color: black;
+}
+.list_info  .list_like img, .list_info .list_comment img, .list_pointer{
+  vertical-align: middle;
+}
+.list_pointer{
+  position: relative;
+  left: 70px;
+}

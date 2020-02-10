@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.969" height="129.97" viewBox="0 0 129.969 129.97">
+  <defs>
+    <filter id="타원_4" x="0" y="0" width="129.969" height="129.97" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_128" data-name="그룹 128" transform="translate(-1500 -161)">
+    <g transform="matrix(1, 0, 0, 1, 1500, 161)" filter="url(#타원_4)">
+      <circle id="타원_4-2" data-name="타원 4" cx="55.985" cy="55.985" r="55.985" transform="translate(9 6)" fill="#36b6e2"/>
+    </g>
+    <circle id="타원_3" data-name="타원 3" cx="50.013" cy="50.013" r="50.013" transform="translate(1514.972 172.972)" fill="#fff"/>
+    <g id="그룹_29" data-name="그룹 29" transform="translate(1535.686 188.219)">
+      <circle id="타원_6" data-name="타원 6" cx="16.994" cy="16.994" r="16.994" transform="translate(12.118)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="패스_16" data-name="패스 16" d="M89.224,211.871S86.958,190,60.112,190,31,211.871,31,211.871" transform="translate(-31 -149.805)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+/* 왼쪽 네비게이션 바, 즉 카테고리 메뉴 스타일 설정 */
+
+.box a{
+  /* 하이퍼링크의 형태 설정: 검은 글씨에 언더바 제거 */
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+nav.box{
+  /* 카테고리 메뉴의 배경색과 너비, 내부 위치 설정 */
+  background-color: #F2F4F7;
+  width: 170px;
+  padding-top:20px;
+  padding-right: 30px;
+}
+.box li{
+  /* 리스트의 기본 크기 */
+  display: block;
+  font-size: 15px;
+  text-align: right;
+  line-height: 33px;
+}
+.sub_menu{
+  /* 하위 메뉴의 상태, 글씨 크기와 애니메이션 제어 */
+  font-size: 12px;
+  overflow:hidden;
+  height:0;
+  transition:height 1s;
+}
+.top_menu_list:hover .sub_menu{
+  /* 카테고리 별 보기에 마우스가 올라갈 시 높이 생성 */
+  display:block;
+  height:150px;
+}
+.top_menu_list:hover .pt{
+  /* 카테고리 별 보기에 마우스가 올라갈 시 +표시 제거 */
+  display: none;
+}
+.pt{ font-weight: bold; } /* +표시의 폰트 제어 */
+.line{
+  /* 상단에 표시되는 줄 */
+  border: solid 1.5px black; 
+  width: 30%;
+  margin-left: 70%;
+}

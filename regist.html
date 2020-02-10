@@ -1,0 +1,30 @@
+<link type="text/css" rel="stylesheet" href="css/aside.css">
+<script src="js/regist.js"></script>
+
+<!--전체 창 넓이 -->
+<div class="frame" align="center">
+  <!--안에있는 내용-->
+  <div class="box">
+    <img src="images\profile\ToMakeLogo.svg" alt="메인">
+    <!-- 회원가입 영역-->
+    <div id="inputMethod">
+      <form method="post" action="DB/DB_Regist_Proc.php" align="center" onsubmit="return finalCheck();">
+        <input class="RegistInputImg" type="email" name="id" onchange="checkID();" placeholder="이메일/계정">
+        <div class="sign" id="id_sign">&nbsp</div> <!-- 아이디 형식, 중복 확인 메세지 출력 -->
+        <input class="RegistInputImg" type="text" onchange="checkName();" name="nickname" placeholder="닉네임">
+        <div class="sign" id="name_sign">&nbsp</div> <!-- 닉네임 형식, 중복 확인 메세지 출력 -->
+        <input class="RegistInputImg" type="password" onkeyup="checkInputType();" name="password" placeholder="비밀번호">
+        <div class="sign" id="pw_sign">&nbsp</div> <!-- 비밀번호 형식 확인 메세지 출력 -->
+        <input class="RegistInputImg" type="password" onkeyup="checkAgree();" name="password_check" placeholder="비밀번호 확인">
+        <div class="sign" id="agree_sign">&nbsp</div> <!-- 비밀번호 재확인 메세지 출력 -->
+        <br>
+        <div><input class="RegistInputImg" type="text" name="phonenumber" placeholder="휴대폰 번호"><br>&nbsp</div>
+        <div><input class="RegistInputImg" type="text" name="address" placeholder="주소"><br>&nbsp</div>
+        <div><input class="RegistInputImg" type="text" name="available" placeholder="사용 가능한 툴"><br>&nbsp</div>
+        <br>
+        <input type="submit" value="가입하기">
+      </form>
+    </div>
+    <span onclick="$('#profile').load('login.html');"><-</span>
+  </div>
+</div>

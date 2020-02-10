@@ -1,0 +1,11 @@
+/* css 전역변수 */
+
+.profile_image{
+    border-radius: 50%;
+    border: 5px solid #60CCF1;
+    box-shadow: 3px 3px 5px gray;
+}
+.view_type { float: right; }
+.view_type img{
+  margin-right: 15px;
+}

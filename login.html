@@ -1,0 +1,31 @@
+<link type="text/css" rel="stylesheet" href="css/aside.css">
+  
+<!-- 전체 창 넓이 -->
+<div class="frame" align="center">
+  <!-- 안에 있는 내용 -->
+  <div class="box">
+    <img src="images\profile\ToMakeLogo.svg" alt="메인">
+    <!-- 아이디 패스워드 영역 -->
+    <div id="inputMethod">
+      <form method="post" action="DB/DB_Login_Proc.php" align="center">
+        <span class="findUserIdPw">아이디</span>
+        <p>
+          <input class="LoginInputImg" type="text" name="userid"><br>
+        <p>
+        <span class="findUserIdPw">&nbsp;&nbsp;비밀번호</span>
+        <input class="LoginInputImg" type="password" name="userpassword">
+        <span class="findUserInfo">
+          <span id='find_ID'>아이디/</span>
+          <span id='find_PW'>비밀번호찾기</span>
+        </span>
+        <br><br><br>
+        <div id="saveMethod" align="center">
+          <input type="checkbox" name="save"><span>로그인 정보 저장</span>
+        </div>
+        <br><br><br>
+        <input type="submit" value="로그인"><br><br><br><br><br>
+        <span id="article2" class="moveRegist" onclick="loadRegist()">투메이크 회원이 아니신가요?</span><br>
+      </form>
+    </div>
+  </div>
+</div>

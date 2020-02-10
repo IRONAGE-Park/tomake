@@ -1,0 +1,17 @@
+/* 피드에서 글들의 스타일 설정 */
+
+.grid{
+    /* 그리드 메뉴에서 각 피드 글들의 간격과 겉 형태 설정 */
+    background-color: white;
+    text-align: left;
+    display:inline-block;
+    width: 340px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px 1px silver;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    color: #393939;
+    transition: 1s;
+}
+.center{ text-align: center; } /* 그리드 메뉴에서 중앙 정렬을 위함*/

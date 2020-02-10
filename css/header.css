@@ -1,0 +1,64 @@
+/* 헤더의 스타일 설정 */
+
+.header_box {
+  /* 헤더 전체의 배경 색과 최소 크기 설정 */
+  padding: 20px;
+  background-color: #36B6E2;
+  vertical-align: middle;
+  min-width: 1300px;
+  width: calc(100vw - 40px);
+  white-space: nowrap;
+}
+
+/* ---로고--- */
+#ToMakeLogoSize{ width: 150px; height: 40px; } /* ToMake로고의 사이즈 */
+.header_box img{ vertical-align: middle; } /* 헤더에 존재하는 모든 이미지는 수직 중앙 정렬 */
+
+.header_Logo, .header_SearchBox, .header_NavBox{ display: inline-block; margin-right: 20px; } 
+/* 로고영역과 검색창 영역, 우측 메뉴 영역의 배치 설정 */
+
+/* ---검색창--- */
+.header_SearchBox .SearchBar{
+  /* 검색창의 스타일 설정 */
+  padding-left: 20px; padding-right: 40px;
+  border: 2px solid white;
+  background: transparent;
+  text-align:left; width: 30vw; height:40px;
+  min-width: 420px;
+  border-radius :25px; font-size:12px;  
+}
+.header_SearchBox .SearchBar:focus{ outline: none; } /* 검색창 주변 파란 라인 없애기 */
+.header_SearchBox .Find{
+  /* 검색창 우측의 돋보기 이미지 설정 */
+  position: relative;
+  width: 30px; height: 30px;
+  right: 55px;
+}
+
+/* ---우측 메뉴--- */
+.header_NavBox .header_Nav{
+  /* 우측 메뉴의 크기와 위치 설정 */
+  width: calc(70vw - 450px);
+  min-width: 500px;
+  text-align: right;
+}
+.header_NavBox .header_Nav a{
+  /* 우측 메뉴에서 하이퍼링크 설정: 언더바 제거와 하얀 색 */
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size: 10px;
+}
+.header_NavBox .header_Nav img{
+  /* 우측 메뉴의 이미지 스타일 설정 */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+.header_NavBox .header_Nav .logout_btn{
+  /* 우측 메뉴의 로그아웃 버튼 */
+  color: #CCE7F1;
+  font-size: 8px;
+  margin-left: 40px;
+}

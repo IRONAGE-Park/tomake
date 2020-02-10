@@ -1,0 +1,41 @@
+/* 메인 페이지 전체적인 배치와 크기 스타일 설정 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+  /* html을 빈 공간 없이 활용하고 기본 폰트는 noto sans로 설정 */
+  margin: 0; padding: 0;
+  font-family: "Noto Sans KR", sans-serif !important;
+  background-color: #F2F4F7;
+}
+
+header.main{
+  /* 헤더와 메인의 간격 */
+  margin-bottom: 50px;
+  position: fixed;
+}
+nav.main,section.main,aside.main{
+  /* 메인 페이지의 형태 */
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 120px;
+}
+
+nav.main{
+  /* 카테고리의 기본 너비 */
+  width: 200px;
+  position: fixed;
+}
+section.main {
+  /* 피드의 너비와 높이 */
+  margin-left: 200px;
+  height: 800px;
+  min-width: 400px;
+  width: calc(100vw - 650px);
+}
+section.main #feed_name{ margin: 30px; margin-top: 0px; font-size: 30px; font-weight: bold; } /* 피드 제목의 형태 */
+
+aside.main {
+  position: fixed;
+  /* 프로필 라인의 너비와 높이 */
+  width: 380px;
+  height: 800px;
+}
